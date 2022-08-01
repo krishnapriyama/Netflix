@@ -1,0 +1,170 @@
+body {
+   margin: 0%;
+   padding: 0%;
+}
+
+.bg-overlay {
+   background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/backgroundimage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   color: #fff;
+   height: 724px;
+   padding-top: 50px;
+}
+
+.text-center {
+   height: 100%;
+   align-items: center;
+   margin-top: 100px;
+}
+
+.text-center h1 {
+   font-size: 77px;
+   font-weight: 700;
+}
+
+.text-center h5 {
+   font-size: 21px;
+   font-weight: 600;
+}
+
+@media all and (max-width:850px) {
+   .text-center h1 {
+      font-size: 50px;
+      font-weight: 700;
+   }
+
+   .text-center h5 {
+      font-size: 35px;
+      font-weight: 600;
+   }
+}
+
+@media all and (max-width:550px) {
+   .text-center h1 {
+      font-size: 35px;
+      font-weight: 700;
+   }
+
+   .text-center h5 {
+      font-size: 29px;
+      font-weight: 600;
+   }
+}
+
+@media all and (max-width:400px) {
+   .text-center h1 {
+      font-size: 25px;
+      font-weight: 700;
+   }
+
+   .text-center h5 {
+      font-size: 19px;
+      font-weight: 600;
+   }
+}
+
+@media all and (max-width:750px) {
+   .d-inline-flex button {
+      font-size: 10px;
+   }
+
+   .d-inline-flex input {
+      font-size: 10px;
+   }
+}
+
+@media all and (max-width:750px) {
+   .d-inline-flex button {
+      font-size: 5px;
+   }
+
+   .d-inline-flex input {
+      font-size: 5px;
+   }
+}
+
+@media all and (max-width:900px) {
+   .col-md-6 {
+      margin: -10 0 0;
+   }
+}
+
+.text-center h2 {
+   color: white;
+   font-size: 58px;
+   font-weight: 800;
+
+}
+
+.text-center p {
+   color: white;
+   font-size: 27px;
+   font-weight: 400;
+
+}
+
+@media all and (max-width:850px) {
+   .text-center h2 {
+      font-size: 50px;
+      font-weight: 700;
+   }
+
+   .text-center p {
+      font-size: 35px;
+      font-weight: 600;
+   }
+}
+
+@media all and (max-width:550px) {
+   .text-center h2 {
+      font-size: 26px;
+      font-weight: 700;
+   }
+
+   .text-center p {
+      font-size: 20px;
+      font-weight: 600;
+   }
+}
+
+@media all and (max-width:400px) {
+   .text-center h2 {
+      font-size: 25px;
+      font-weight: 700;
+   }
+
+   .text-center h5 {
+      font-size: 19px;
+      font-weight: 600;
+   }
+}
+
+@media all and (max-width:300px) {
+   .text-center h2 {
+      font-size: 20px;
+      font-weight: 700;
+   }
+
+   .text-center p {
+      font-size: 19px;
+      font-weight: 400;
+   }
+}
+
+button{
+   width: 45%;
+   text-align: left;
+   color: #fff;
+   background-color: rgb(46, 46, 46);
+   font-size: 36px;
+   padding: 15px;
+   padding-bottom: 10px;
+}
+
+.text-white {
+   color: #fff!important;
+   padding: 15px;
+}
+
